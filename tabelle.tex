@@ -1,4 +1,4 @@
-% !TeX encoding = UTF-8
+% !TeX encoding = UTF-8% !TeX encoding = UTF-8
 % !TeX spellcheck = it_IT
 \documentclass[openany,a4paper]{book}%
 % see http://www.tex.ac.uk/cgi-bin/texfaq2html?label=noroom
@@ -14,6 +14,10 @@
 \DeclareCaptionFormat{esempio}{\textbf{Esempio \thefigure}#2#3}
 \newcolumntype{L}{>{$\displaystyle}l<{$}}
 \newcolumntype{C}{>{$\displaystyle}c<{$}}      
+%\newcolumntype{R}{>{$\displaystyle}r<{$}}
+%\newcolumntype{T}{>{\centering\arraybackslash}p{1em}} 
+%\newcolumntype{W}{>{\sffamily\Large $}c<{$}}
+%\newcolumntype{N}[1]{>{\centering\rule[-1mm]{0pt}{4.75mm}}m{#1}}
 \newcolumntype{M}[1]{>{\centering}p{#1}}
 \newcommand\pilH{\rule{0pt}{2.5ex}}
 \newcommand\pilD{\rule[-1ex]{0pt}{0pt}}
@@ -107,7 +111,7 @@
 			\textsc{\LARGE Claudio Duchi}\\[1.2cm]
 			\HRule \\[0.4cm]
 			{ \huge \bfseries APPUNTI DI MATEMATICA}\\[0.4cm]
-			{\LARGE \textsc{SECONDO}}
+			{\LARGE \textsc{TERZO MANUTENZIONE}}
 			\HRule \\[1.2cm]
 			\vfill
 			\polylogo[5.5]{15}		
@@ -145,7 +149,7 @@
 	\addcontentsline{toc}{chapter}{\indexname}
 	\printindex
 	\appendix
-	\include{secondo/esempisecondo}
+%	\input{terzo/Tabelle_goniometriche}
 	\chapter{Mezzi usati}
 	\CDMezziUsati
 	
